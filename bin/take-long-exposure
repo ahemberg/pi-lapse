@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+"""
+Takes an image and saves it to file using the longest possible exposure parameters
+"""
+
+from pi_lapse import camera_functions
+
+
+def main():
+    camera_functions.save_long_exposure('test.jpg', iso=100)
+
+if __name__ == "__main__":
+    main()
